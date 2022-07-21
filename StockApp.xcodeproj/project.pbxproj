@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42A7CD832887CCC800265CB4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A7CD822887CCC800265CB4 /* SearchViewController.swift */; };
+		42A7CD882887DF0B00265CB4 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A7CD862887DF0B00265CB4 /* SearchTableViewCell.swift */; };
+		42A7CD892887DF0B00265CB4 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42A7CD872887DF0B00265CB4 /* SearchTableViewCell.xib */; };
 		42D7E71C28864C6000E17431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7E71B28864C6000E17431 /* AppDelegate.swift */; };
 		42D7E71E28864C6000E17431 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7E71D28864C6000E17431 /* SceneDelegate.swift */; };
 		42D7E72028864C6000E17431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7E71F28864C6000E17431 /* ViewController.swift */; };
 		42D7E72328864C6000E17431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D7E72128864C6000E17431 /* Main.storyboard */; };
 		42D7E72528864C6200E17431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D7E72428864C6200E17431 /* Assets.xcassets */; };
 		42D7E72828864C6200E17431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D7E72628864C6200E17431 /* LaunchScreen.storyboard */; };
+		42D7E7302886972300E17431 /* StockTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7E72F2886972300E17431 /* StockTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42A7CD822887CCC800265CB4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		42A7CD862887DF0B00265CB4 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		42A7CD872887DF0B00265CB4 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
 		42D7E71828864C5F00E17431 /* StockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D7E71B28864C6000E17431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42D7E71D28864C6000E17431 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		42D7E72428864C6200E17431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42D7E72728864C6200E17431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42D7E72928864C6200E17431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D7E72F2886972300E17431 /* StockTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				42D7E71D28864C6000E17431 /* SceneDelegate.swift */,
 				42D7E71F28864C6000E17431 /* ViewController.swift */,
 				42D7E72128864C6000E17431 /* Main.storyboard */,
+				42A7CD822887CCC800265CB4 /* SearchViewController.swift */,
+				42A7CD862887DF0B00265CB4 /* SearchTableViewCell.swift */,
+				42A7CD872887DF0B00265CB4 /* SearchTableViewCell.xib */,
+				42D7E72F2886972300E17431 /* StockTableView.swift */,
 				42D7E72428864C6200E17431 /* Assets.xcassets */,
 				42D7E72628864C6200E17431 /* LaunchScreen.storyboard */,
 				42D7E72928864C6200E17431 /* Info.plist */,
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42D7E72828864C6200E17431 /* LaunchScreen.storyboard in Resources */,
+				42A7CD892887DF0B00265CB4 /* SearchTableViewCell.xib in Resources */,
 				42D7E72528864C6200E17431 /* Assets.xcassets in Resources */,
 				42D7E72328864C6000E17431 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A7CD832887CCC800265CB4 /* SearchViewController.swift in Sources */,
 				42D7E72028864C6000E17431 /* ViewController.swift in Sources */,
 				42D7E71C28864C6000E17431 /* AppDelegate.swift in Sources */,
+				42A7CD882887DF0B00265CB4 /* SearchTableViewCell.swift in Sources */,
+				42D7E7302886972300E17431 /* StockTableView.swift in Sources */,
 				42D7E71E28864C6000E17431 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,8 +301,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RED6A6AM28;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StockApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -294,13 +312,15 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "croc0909-gmail.com.StockApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "croc0909-gmail.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,8 +332,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RED6A6AM28;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StockApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,13 +343,15 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "croc0909-gmail.com.StockApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "croc0909-gmail.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
